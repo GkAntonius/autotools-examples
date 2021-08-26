@@ -1,0 +1,35 @@
+This is an autoconf example.
+
+The program alice depends on the library wonderland.
+Therefore, wonderland should be compiled and installed before alice can use it.
+
+
+The configure script can be generated in each directory, e.g.
+
+    cd wonderland
+    autoreconf -vif
+    cd ..
+
+    cd alice
+    autoreconf -vif
+    cd ..
+
+In each directory, the program should be built and installed.
+For example,
+
+    cd wonderland
+    mkdir build && cd build
+    mkdir install
+    ../configure --prefix=$(pwd)/install
+    make && make install
+    cd ../..
+
+    cd alice
+    mkdir build && cd build
+    mkdir install
+    ../configure --prefix=$(pwd)/install --with-wonderland=$(pwd)/../../wonderland/build/install
+    make && make install
+
+Finally, can run the program with
+    ./install/bin/alice
+
