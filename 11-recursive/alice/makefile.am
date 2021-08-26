@@ -1,0 +1,9 @@
+# Tell the system that files may not be organized like typical GNU programs.
+AUTOMAKE_OPTIONS = foreign  
+
+# List of subdirectories (each one must have a makefile.am)
+SUBDIRS = src
+
+# Flags
+#CFLAGS = --pedantic -Wall -std=c99 -O2
+#LDFLAGS =

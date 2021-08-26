@@ -1,0 +1,16 @@
+
+GOAL
+
+Configure recursively, and pass the options to alice and wonderland.
+
+
+GENERAL DESCRIPTION
+
+This is an autoconf example.
+
+The program alice depends on the library wonderland.
+Therefore, wonderland should be compiled and installed before alice can use it.
+
+
+WORK IN PROGRESS
+

@@ -1,0 +1,3 @@
+lib_LIBRARIES = libwonderland.a
+libwonderland_a_SOURCES = wonderland.F90 mad_hatter.F90 wonderland_test.F90
+include_HEADERS = wonderland.mod mad_hatter.mod

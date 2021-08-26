@@ -1,0 +1,16 @@
+The wonderland library.
+-----------------------
+
+Generate the configure script with
+    autoreconf -vif
+
+Run the configure script either from this directory or from a subdirectory
+to generate the Makefile
+    mkdir build
+    cd build
+    ../configure
+
+Finally build the library, and possibly install it
+    make
+    make install
+

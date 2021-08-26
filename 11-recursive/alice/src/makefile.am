@@ -1,0 +1,2 @@
+bin_PROGRAMS = alice
+alice_SOURCES = alice.F90
