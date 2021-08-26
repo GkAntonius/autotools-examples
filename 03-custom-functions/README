@@ -1,0 +1,9 @@
+
+GOAL
+
+Here we want to define a few macros that will be executed by the configure script.
+
+We will define these macros in  the file acinclude.m4
+then call these macros in configure.ac
+
+SUCCESS
