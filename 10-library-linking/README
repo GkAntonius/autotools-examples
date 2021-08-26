@@ -31,5 +31,5 @@ For example,
     make && make install
 
 Finally, can run the program with
-    ./install/bin/alice
+    ./install/bin/alice.x
 
