@@ -1,0 +1,3 @@
+The difference with the 01-first directory are that
+- Source files are placed in the src/ directory
+- This examples has both a C code and a Fortran code
