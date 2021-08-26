@@ -1,0 +1,16 @@
+
+GOAL
+
+
+Add option --with-alice.
+
+SUCCESS
+
+One can pass these arguments when running configure:
+
+    --with-alice
+    --with-alice=yes
+    --without-alice
+    --with-alice=no
+
+

@@ -1,0 +1,7 @@
+
+GOAL
+
+Here we want to define a few macros in separate files,
+located in a directory, which should be called 'm4' by convention.
+We declare the location of this directory with AC_CONFIG_MACRO_DIRS([m4])
+
