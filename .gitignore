@@ -1,0 +1,16 @@
+**cache
+**Makefile.in
+**build-aux
+**autom4te.cache
+**configure~
+**configure
+**config.status
+**config.log
+**aclocal.m4
+**.x
+**.o
+**.mod
+**.deps
+Makefile
+install
+build*

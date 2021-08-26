@@ -1,0 +1,17 @@
+# Following tutorial from
+# http://www.idryman.org/blog/2016/03/10/autoconf-tutorial-1/
+
+# The original files in the directory (along with this note) are:
+configure.ac hello.c makefile.am
+
+# This command creates the configure script:
+autoreconf --verbose --install --force
+
+# Then one can execute the configure script to create the Makefile:
+./configure
+
+# Then one can do
+make
+
+# Which produces the executable
+hello.x

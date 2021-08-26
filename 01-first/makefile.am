@@ -1,0 +1,2 @@
+bin_PROGRAMS = hello.x
+hello_x_SOURCES = hello.c
